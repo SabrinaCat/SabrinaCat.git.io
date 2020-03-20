@@ -1,0 +1,72 @@
+#topnav{
+    background-color:#004c46;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*#webdev {
+    background-color:white;
+    text-align:center;
+    font-family: 'Zilla Slab', serif;
+
+}*/
+
+#navbar {
+    background-color: white;
+    border-bottom: rgb(83, 80, 80);
+    border-width: 3px;
+    color: white;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+}
+
+body{
+    background-color: #b8c2c8;
+}
+
+.flex-container {
+    background-color: white;
+    border-style: solid;
+    border-color: #529488;
+    border-width: 5px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 40%;
+}  
+
+#row1 {
+    color:#004ca6;
+    font-weight: 300px;
+    font-size: larger;
+    font-family: 'Zilla Slab', serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
+form {
+    border-color: black;
+    height: 60%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#submit {
+    margin-top:10%;
+    margin-bottom: 20%;
+}
+
+footer {
+    background-color: #529488;
+    justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+
+}
+@media screen and (max-width: 980px){
+
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="contact.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <nav id="topnav" class="navbar navbar-dark bg-dark">
+            <span id="myname" class="navbar-brand mb-0 h1">Sabrina Hollett</span>
+        </nav>
+        
+        <ul class="nav justify-content-center">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>  
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+         <!--container for whole contact box-->
+        <div class="flex-container">
+             <!--Row1 of form container with Contact header-->   
+            <Header id="row1" class="col-sm-11">
+                <div>
+                    <h1 id="Contact">Contact</h1>
+                </div>
+            </header>
+
+                <br>
+
+                <form> <!--Contains input boxes-->
+
+                    <div id="row2" class="column-sm-11">
+                        <section> <!--Name element div-->
+                            <label for="name">Name</label>
+                            <input type="name" class="form-control" placeholder="Your Name">
+                        </section>
+        
+                        <section> <!--Email element div-->
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </section>
+                    
+                        <section><!--Message text element div-->
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <!--Submit button-->
+                            <input id="submit" type="submit" value="Submit">
+                        </section>
+                    </div>
+                
+                </form>
+            
+            </div>   
+        </div>
+        
+        <footer>
+            <nav class="navbar fixed-bottom navbar-dark bg-dark">
+                <a class="navbar-brand" href="https://github.com/SabrinaCat">Connect With Me On GitHub @ Github.com/SabrinaCat</a>
+            </nav>  
+        </footer>
+       
+           
+    </body>
+</html>

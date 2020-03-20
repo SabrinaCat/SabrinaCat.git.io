@@ -1,0 +1,54 @@
+#div-nav {
+    background-color: #128177;
+    color: white;
+    }
+#myname{
+    font-size:30px;
+    margin-left: 20px;
+}
+#div-links {
+    color: white;
+    align-content: flex-end;
+}
+body {
+    background-color: #b8c2c8;
+}
+#aboutme-div{
+    border-style: solid;
+    border-color: #259488;
+    background-color: white;
+    margin-left:40px;
+    margin-right: 120px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+
+}
+#aboutme-header{
+    color: #004c46;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-bottom: #529488;
+    margin-left:10px;
+}
+img {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p {
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar /*Footer*/{
+    background-color: #529488;
+    justify-content: center;
+}
