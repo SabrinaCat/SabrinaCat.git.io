@@ -1,6 +1,7 @@
 /*Header navigation styling*/
 #head-nav {
     background-image: url(https://wallpapercave.com/wp/wp3899842.jpg);
+    background-size: contain;
     color: #01332f;
     font-family:'Fira Sans', sans-serif;
     }
@@ -22,41 +23,42 @@ a {
     color: white;
     align-content: flex-end;
 }
-
+/*background color for styling*/
 body{
     background-color: #b8c2c8;
 }
-.container-fluid {
+/*container for project card layout*/
+.container {
     border-style: solid;
     border-color: #128177;
     background-color: white;
     margin-top: 20px;
-    margin-right:40px;
+    margin-right:20px;
     margin-bottom: 20px;
     margin-left:20px;
+
 }
 #row1-header {
     color: #004c46;
     font-family:'Fira Sans', sans-serif;
     font-size: xx-large;
-    font-weight: 300px;
+    font-weight: 250px;
     padding-top: 10px;
     padding-bottom: 10px;
     justify-content: center;
 }
-.col-sm-6 {
-    position: relative;
+#row2-cards {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
     text-align: center;
-    color: white;
+    color: #128177;
   }
 
- img {
-     align-content: center;
-     margin-top:10px;
-     margin-right: 10px;
-     margin-bottom: 10px;
-     margin-left: 10px;
-}
+  .card {
+  }
+ 
+
 /*Footer*/
 #footer {
     background-color: #128177;
