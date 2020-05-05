@@ -14,25 +14,25 @@
     </head>
     <body>
         <!--Navbar with my name and 3 links-->
-        <div id="div-nav">
-            <nav id="navstyle" class="navbar navbar-dark bg-dark">
+        <header id="head-nav">
+            <nav class="navbar">
                 <span id="myname" class="navbar-brand mb-0 h1">Sabrina Hollett</span>
-                    
-                    <div id="div-links"> <!--div for page links-->
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+                <!--div for page links alignment and styling-->
+                <div id="nav-links"> 
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
-        </div>  
+        </header>
         <br>
         <!--div container that will contain porfolio header (row1) and 5 image boxes (row2) that will link to my projects-->
         <div id="div-con" class="container">
@@ -64,8 +64,8 @@
 
           
         <!--nav bar that acts as a footer and contains a link to my Github-->
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="https://github.com/SabrinaCat">Connect With Me On GitHub @ Github.com/SabrinaCat</a>
+        <nav id="footer" class="navbar fixed-bottom">
+            <a href="https://github.com/SabrinaCat">Connect With Me On GitHub @ Github.com/SabrinaCat</a>
         </nav>
 
     </body>
