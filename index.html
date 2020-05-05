@@ -12,58 +12,63 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="div-nav">
-        <nav id="navstyle" class="navbar navbar-dark bg-dark">
+    <header id="head-nav">
+        <nav class="navbar">
             <span id="myname" class="navbar-brand mb-0 h1">Sabrina Hollett</span>
-            <div id="div-links"> <!--div for page links-->
+            <!--div for page links alignment and styling-->
+            <div id="nav-links"> 
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-    </div>   
-        <!--Centered div containing header, image, and wrapped text-->
-        <div id="aboutme-div"class="container row col-sm-10">
-        
-            <!-- About Me Header-->
-            <h1 id="aboutme-header"class="container row col-sm-12">About Me</h1>
-        
+    </header>   
+    <!--Container fluid for responsiveness-->
+    <div class="container-fluid row mx-auto">
+        <!--Column for header, img, and paragraph-->
+        <div id="aboutme-div" class="col-10 offset -1">
+            <!-- About Me Header div for border styling-->
+            <div id="aboutme-h1">
+                <h1>About Me</h1>
+            </div>
             <!--Image of myself that will float left for text to wrap around-->
             <img src="https://i.imgur.com/DZK6tHw.jpg" > 
-        
+            
             <!--About me Section-->
-            <p id="aboutme-p1">
-                HELLO! My name is Sabrina Hollett and I am a full-stack web developer in Austin, Texas. 
-                I enjoy making dynamic and responsive websites for both mobile and desktop devices.
-                My journey into coding stemmed from an interest in the process of building, creating,
-                and often re-building websites. I'm detail-oriented and am always finding
-                ways to make tasks more efficient. My previous work experience includes
-                Event Team Management where I'd direct a team of volunteers for set up and breakdown
-                of events of up to 2,000 people! My team members know I'm not afraid to jump 
-                in and get things done. 
+            <p>
+                        HELLO! My name is Sabrina Hollett and I am a full-stack web developer in Austin, Texas. 
+                    I enjoy making dynamic and responsive websites for both mobile and desktop devices.
+                    My journey into coding stemmed from an interest in the process of building, creating,
+                    and often re-building websites. I'm detail-oriented and am always finding
+                    ways to make tasks more efficient. My previous work experience includes
+                    Event Team Management where I'd direct a team of volunteers for set up and breakdown
+                    of events of up to 2,000 people! My team members know I'm not afraid to jump 
+                    in and get things done. 
             </p>
             <br>
             <br>
-            <p id="aboutme-p2">
-                When I'm not working on a project build you can find me either
-                on a dancefloor, in the wilderness, or maybe just sitting at 
-                home with my two adorable cats.  
+            <p>
+                        When I'm not working on a project build you can find me either
+                    on a dancefloor, in the wilderness, or maybe just sitting at 
+                    home with my two adorable cats.  
             </p>
             <br>
         </div>
-        <!--Fixed bottom navbar acting as footer-->
-        <nav class="navbar fixed-bottom navbar-dark bg-dark">
-            <a class="navbar-brand" href="https://github.com/SabrinaCat">Connect With Me On GitHub @ Github.com/SabrinaCat</a>
-        </nav>
-
+    </div>
+        
+    <!--Fixed bottom navbar acting as footer-->
+    <nav id="footer" class="navbar fixed-bottom">
+        <a href="https://github.com/SabrinaCat">Connect With Me On GitHub @ Github.com/SabrinaCat</a>
+    </nav>
+    
     
 </body>
 </html>
