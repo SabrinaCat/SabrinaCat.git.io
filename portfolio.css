@@ -33,7 +33,7 @@ body{
     border-style: solid;
     border-color: #259488;
     background-color: white;
-    margin: 20px 120px 100px 40px;
+    margin:auto;
     padding: 20px;
 }
 /*div for main contents header*/
@@ -46,16 +46,15 @@ body{
     margin-top: 20px;
 }
 /*cards display*/
-#row2-cards {
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
+#row2-cards{
     text-align: center;
     color: #128177;
   }
 
-  .card {
-  }
+.card {
+    margin: auto;
+    margin-bottom: 10px;
+}
  
 
 /*Footer*/
@@ -66,3 +65,21 @@ body{
     justify-content: center;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
