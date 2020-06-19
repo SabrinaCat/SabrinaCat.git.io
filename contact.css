@@ -38,12 +38,12 @@ body{
 }  
 /*styling of contact form header*/
 #row1 {
-    color:#004ca6;
-    font-weight: 300px;
-    font-size: larger;
-    font-family: 'Zilla Slab', serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    color: #004c46;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-top: 20px;
 }
 /*form styling and layout*/
 form {
@@ -57,20 +57,10 @@ form {
     margin-top:10%;
     margin-bottom: 20%;
 }
-/*set footer color*/
-footer {
-    background-color: #529488;
-}
-/*bottom nav-bar centering*/
-.fixed-bottom {
-    display: flex;
-    flex-wrap: wrap;
+/*Footer*/
+#footer {
+    background-color: #128177;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
     justify-content: center;
-}
-
-@media screen and (max-width: 640px) {
-
-}
-@media screen and (max-width: 980px){
-
 }

@@ -40,13 +40,12 @@ body {
 
 /*div for main contents header*/
 #aboutme-h1{
+    display: flex;
     color: #004c46;
     font-family: 'Fira Sans', sans-serif;
     padding-bottom: 20px;
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-bottom: #529488;
-    margin-left:10px;
+    justify-content: center;
+    margin-top: 20px;
 }
 /*profile image styling*/
 img {

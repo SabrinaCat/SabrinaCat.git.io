@@ -1,10 +1,9 @@
 /*Header navigation styling*/
 #head-nav {
     background-image: url(https://wallpapercave.com/wp/wp3899842.jpg);
-    background-size: contain;
     color: #01332f;
     font-family:'Fira Sans', sans-serif;
-    }
+}
 
 /*prevent color change on used links*/
 a {
@@ -27,26 +26,26 @@ a {
 body{
     background-color: #b8c2c8;
 }
-/*container for project card layout*/
+
+
+/*container for main content with project cards*/
 .container {
     border-style: solid;
-    border-color: #128177;
+    border-color: #259488;
     background-color: white;
-    margin-top: 20px;
-    margin-right:20px;
-    margin-bottom: 20px;
-    margin-left:20px;
-
+    margin: 20px 120px 100px 40px;
+    padding: 20px;
 }
-#row1-header {
+/*div for main contents header*/
+#row1-header{
+    display: flex;
     color: #004c46;
-    font-family:'Fira Sans', sans-serif;
-    font-size: xx-large;
-    font-weight: 250px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 20px;
     justify-content: center;
+    margin-top: 20px;
 }
+/*cards display*/
 #row2-cards {
     display: flex;
     flex-direction: column;
