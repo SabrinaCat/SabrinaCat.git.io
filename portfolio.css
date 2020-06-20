@@ -23,10 +23,13 @@ a {
     align-content: flex-end;
 }
 /*background color for styling*/
-body{
+body {
     background-color: #b8c2c8;
 }
-
+img {
+height: 200px;
+width: 150px;
+}
 
 /*container for main content with project cards*/
 .container {
