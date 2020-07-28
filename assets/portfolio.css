@@ -1,0 +1,88 @@
+/*Header navigation styling*/
+#head-nav {
+    background-image: url(https://wallpapercave.com/wp/wp3899842.jpg);
+    color: #01332f;
+    font-family:'Fira Sans', sans-serif;
+}
+
+/*prevent color change on used links*/
+a {
+        color:inherit;
+        text-decoration: none;
+}
+
+/*Adjust size and position of Name inside nav-bar*/
+#myname{
+    font-size:30px;
+    margin-left: 20px;
+}
+
+/*alignment of navigation links*/
+#div-links {
+    color: white;
+    align-content: flex-end;
+}
+/*background color for styling*/
+body {
+    background-color: #b8c2c8;
+}
+img {
+height: 200px;
+width: 150px;
+}
+
+/*container for main content with project cards*/
+.container {
+    border-style: solid;
+    border-color: #259488;
+    background-color: white;
+    margin:auto;
+    padding: 20px;
+}
+/*div for main contents header*/
+#row1-header{
+    display: flex;
+    color: #004c46;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+/*cards display*/
+#row2-cards{
+    text-align: center;
+    color: #128177;
+  }
+
+.card {
+    margin: auto;
+    margin-bottom: 10px;
+}
+ 
+
+/*Footer*/
+#footer {
+    background-color: #128177;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    justify-content: center;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}

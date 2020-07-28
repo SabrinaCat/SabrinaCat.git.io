@@ -1,0 +1,74 @@
+
+/*Header navigation styling*/
+#head-nav {
+    background-image: url(https://wallpapercave.com/wp/wp3899842.jpg);
+    color: #01332f;
+    font-family:'Fira Sans', sans-serif;;
+    }
+
+/*prevent color change on used links*/
+a {
+        color:inherit;
+        text-decoration: none;
+}
+
+/*Adjust size and position of Name inside nav-bar*/
+#myname{
+    font-size:30px;
+    margin-left: 20px;
+}
+
+/*alignment of navigation links*/
+#div-links {
+    color: white;
+    align-content: flex-end;
+}
+
+/*seperate background color for body*/
+body {
+    background-color: #b8c2c8;
+}
+
+/*container for main content*/
+#aboutme-div{
+    border-style: solid;
+    border-color: #259488;
+    background-color: white;
+    margin: 20px 120px 100px 40px;
+    padding: 20px;
+}
+
+/*div for main contents header*/
+#aboutme-h1{
+    display: flex;
+    color: #004c46;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+/*profile image styling*/
+img {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+/*text styling for about me section*/
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Footer*/
+#footer {
+    background-color: #128177;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    justify-content: center;
+}
