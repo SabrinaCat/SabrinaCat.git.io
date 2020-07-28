@@ -7,12 +7,10 @@ UPDATE: 7/28/2020 Upon further effort put into this project I chose to use css s
 
 [Imgur of Portfolio Webpage](https://i.imgur.com/OsZwIyc.png)
 
-Current Deployed Version
-
-[GitHub](https://github.com/SabrinaCat)
+[Deployed Application](https://sabrinacat.github.io/SabrinaCat.git.io/)
 
 See More of My work Here!
-[GitHub](https://github.com/SabrinaCat)
+[GitHub/SabrinaCat](https://github.com/SabrinaCat)
 
 
 
